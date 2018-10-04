@@ -7,9 +7,12 @@ name = "pypi"
 mysqlclient = "==1.3.13"
 Django = "==2.1.2"
 graphene-django = "*"
-pytest = "*"
 
 [dev-packages]
+mixer = "*"
+pytest = "*"
+pytest-cov = "*"
+pytest-django = "*"
 
 [requires]
 python_version = "3.6"
